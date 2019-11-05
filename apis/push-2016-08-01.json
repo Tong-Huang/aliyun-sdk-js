@@ -1,19 +1,19 @@
 {
 	"format": "pop",
-	"apiVersion": "2016-08-01", 
+	"apiVersion": "2016-08-01",
 	"checksumFormat": "md5",
-	"endpointPrefix": "push", 
-	"serviceAbbreviation": "PUSH", 
-	"serviceFullName": "Aliyun PUSH", 
+	"endpointPrefix": "push",
+	"serviceAbbreviation": "PUSH",
+	"serviceFullName": "Aliyun PUSH",
 	"signatureVersion": "pop",
 	"timestampFormat": "top",
 	"xmlnamespace": "",
 	"operations": {
-		"bindAlias": {  
+		"bindAlias": {
 			"name": "BindAlias",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -37,11 +37,11 @@
 				}
 			}
 		},
-		"bindTag": {  
+		"bindTag": {
 			"name": "BindTag",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -69,11 +69,11 @@
 				}
 			}
 		},
-		"clearAlias": {  
+		"clearAlias": {
 			"name": "ClearAlias",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -93,11 +93,11 @@
 				}
 			}
 		},
-		"deleteTag": {  
+		"deleteTag": {
 			"name": "DeleteTag",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -117,11 +117,11 @@
 				}
 			}
 		},
-		"listPushRecords": {  
+		"listPushRecords": {
 			"name": "ListPushRecords",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -155,11 +155,11 @@
 				}
 			}
 		},
-		"listTags": {  
+		"listTags": {
 			"name": "ListTags",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -175,11 +175,11 @@
 				}
 			}
 		},
-		"push": {  
+		"push": {
 			"name": "Push",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -257,6 +257,9 @@
 					"AndroidNotificationBarPriority": {
 						"type": "integer"
 					},
+					"AndroidNotificationChannel": {
+						"type": "string"
+					},
 					"AndroidExtParameters": {
 						"type": "string"
 					},
@@ -293,11 +296,11 @@
 				}
 			}
 		},
-		"pushMessageToAndroid": {  
+		"pushMessageToAndroid": {
 			"name": "PushMessageToAndroid",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -329,11 +332,11 @@
 				}
 			}
 		},
-		"pushMessageToiOS": {  
+		"pushMessageToiOS": {
 			"name": "PushMessageToiOS",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -365,11 +368,11 @@
 				}
 			}
 		},
-		"pushNoticeToiOS": {  
+		"pushNoticeToiOS": {
 			"name": "PushNoticeToiOS",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -407,11 +410,11 @@
 				}
 			}
 		},
-		"pushNoticeToAndroid": {  
+		"pushNoticeToAndroid": {
 			"name": "PushNoticeToAndroid",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -446,11 +449,11 @@
 				}
 			}
 		},
-		"queryAlias": {  
+		"queryAlias": {
 			"name": "QueryAlias",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -470,11 +473,11 @@
 				}
 			}
 		},
-		"queryTags": {  
+		"queryTags": {
 			"name": "QueryTags",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -498,11 +501,11 @@
 				}
 			}
 		},
-		"queryDeviceInfo": {  
+		"queryDeviceInfo": {
 			"name": "QueryDeviceInfo",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -522,11 +525,11 @@
 				}
 			}
 		},
-		"unbindTag": {  
+		"unbindTag": {
 			"name": "UnbindTag",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -554,11 +557,11 @@
 				}
 			}
 		},
-		"unbindAlias": {  
+		"unbindAlias": {
 			"name": "UnbindAlias",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -582,11 +585,11 @@
 				}
 			}
 		},
-		"queryAppPushStat": {  
+		"queryAppPushStat": {
 			"name": "QueryAppPushStat",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -614,11 +617,11 @@
 				}
 			}
 		},
-		"queryPushStat": {  
+		"queryPushStat": {
 			"name": "QueryPushStat",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -638,11 +641,11 @@
 				}
 			}
 		},
-		"queryDeviceStat": {  
+		"queryDeviceStat": {
 			"name": "QueryDeviceStat",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -674,11 +677,11 @@
 				}
 			}
 		},
-		"queryUniqueDeviceStat": {  
+		"queryUniqueDeviceStat": {
 			"name": "QueryUniqueDeviceStat",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -706,11 +709,11 @@
 				}
 			}
 		},
-		"listTinyApps": {  
+		"listTinyApps": {
 			"name": "ListTinyApps",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -722,11 +725,11 @@
 				}
 			}
 		},
-		"listSummaryApps": {  
+		"listSummaryApps": {
 			"name": "ListSummaryApps",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -738,11 +741,11 @@
 				}
 			}
 		},
-		"queryPushStatByApp": {  
+		"queryPushStatByApp": {
 			"name": "QueryPushStatByApp",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -770,11 +773,11 @@
 				}
 			}
 		},
-		"queryPushStatByMsg": {  
+		"queryPushStatByMsg": {
 			"name": "QueryPushStatByMsg",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -794,11 +797,11 @@
 				}
 			}
 		},
-		"queryAliases": {  
+		"queryAliases": {
 			"name": "QueryAliases",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -818,11 +821,11 @@
 				}
 			}
 		},
-		"cancelPush": {  
+		"cancelPush": {
 			"name": "CancelPush",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -842,11 +845,11 @@
 				}
 			}
 		},
-		"queryPushDetail": {  
+		"queryPushDetail": {
 			"name": "QueryPushDetail",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -866,11 +869,11 @@
 				}
 			}
 		},
-		"checkDevice": {  
+		"checkDevice": {
 			"name": "CheckDevice",
 			"http": {
 				"method": "POST",
-				"uri":"/"
+				"uri": "/"
 			},
 			"input": {
 				"type": "structure",
@@ -890,5 +893,5 @@
 				}
 			}
 		}
-  }
+	}
 }
