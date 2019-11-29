@@ -260,6 +260,15 @@
 					"AndroidNotificationChannel": {
 						"type": "string"
 					},
+					"AndroidPopupActivity": {
+						"type": "string"
+					},
+					"AndroidPopupTitle": {
+						"type": "string"
+					},
+					"AndroidPopupBody": {
+						"type": "string"
+					},
 					"AndroidExtParameters": {
 						"type": "string"
 					},
